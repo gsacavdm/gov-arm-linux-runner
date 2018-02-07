@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Bail on error
 set -e
 
