@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "runScript": {
+      "value": "sample.sh"
+    },
+    "runContainer": {
+      "value": "20180206"
+    },
+    "runAccountName": {
+      "value": "runnerdiagnostics"
+    },
+    "runAccountSasKey": {
+      "value": "?sv=2017-04-17&ss=b&srt=co&sp=rl&se=2018-02-07T15:20:10Z&st=2018-02-07T07:20:10Z&spr=https&sig=HJfNP3lN8451qUmaVdRYqIcfVzchDO6P%2FuYdm5jPKJ8%3D"
+    },
+    "runAccountEnvironment": {
+      "value": "AzureUSGovernment"
+    }
+  }
+}
